@@ -7,11 +7,11 @@ class Config(object):
     APP_ID = 3796974
     API_HASH = "9511d0112631f9990337eb724d1a7d0d"
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "latest_tvserials_first_on_net")
+    UPDATE_CHANNEL = "latest_tvserials_first_on_net"
     # log channel
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "mjfileupload")
+    LOG_CHANNEL = "mjfileupload"
     # Get these values from my.telegram.org
-    CHAT_ID = os.environ.get("CHAT_ID", "zeemarathiserials2")
+    # CHAT_ID = os.environ.get("CHAT_ID", "")
     # Array to store users who are authorized to use the bot
     AUTH_USERS = "1464063686"
     # Banned Unwanted Members..
