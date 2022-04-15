@@ -7,11 +7,11 @@ class Config(object):
     APP_ID = 3796974
     API_HASH = "9511d0112631f9990337eb724d1a7d0d"
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = "-1001712250223"
+    UPDATE_CHANNEL = -1001712250223
     # log channel
-    LOG_CHANNEL = "-1001771465683"
+    LOG_CHANNEL = -1001771465683
     # Get these values from my.telegram.org
-    CHAT_ID = os.environ.get("CHAT_ID", "")
+    CHAT_ID = -1001573848869
     # Array to store users who are authorized to use the bot
     AUTH_USERS = "1464063686"
     # Banned Unwanted Members..
