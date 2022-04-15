@@ -13,7 +13,7 @@ class Config(object):
     # Get these values from my.telegram.org
     # CHAT_ID = os.environ.get("CHAT_ID", "")
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = "1464063686"
+    AUTH_USERS = set(int(x) for x in os.environ.get("1464063686").split())
     # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
@@ -36,7 +36,7 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
-    DEF_WATER_MARK_FILE = ""
+    DEF_WATER_MARK_FILE = "https://cdn.tdirectory.me/images/td/image-group-5662431e0c89566789ce80f4b8ba02e687f0911e.jpg"
     # Database url
     DB_URI = "postgres://nrhsxjexkycakn:5a97936bd10f2a9dae38105279f5faff20ec08fca55ef42b37a478b438a742ca@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/d8jnslcpc51j8f"
     
